@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goozilla</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+      <nav class="d-flex justify-content-between p-3" id="navbar">
+        <div>
+          <a class="left">About</a>
+          <a class="left">Store</a>
+        </div>
+        <div class="right1">
+          <a class="right" href="" target="_blank">Gmail</a>
+          <a class="right">Images</a>
+          <a class="right"><i class="fa-solid fa-bars"></i></a>
+          <a class="right"><i class="fa-solid fa-circle-user"></i></a>
+        </div>
+      </nav>
+      <div class="search-header text-center">
+        <img class="search-logo" src="https://nkb-backend-otg-media-static.s3.ap-south-1.amazonaws.com/ccbp-dynamic-webapps/wiki-logo-img.png" alt="logo"/>
+        <br />
+        <h1 class="d-flex flex-wrap justify-content-center">Goozilla</h1>
+        <input placeholder="Search Engine" type="search" class="search-input w-100" id="searchInput" />
+      </div>
+      <div class="d-none" id="spinner">
+        <div class="d-flex justify-content-center">
+          <div class="spinner-border" role="status">
+            <span class="sr-only">Loading...</span>
+          </div>
+        </div>
+      </div>
+      <div class="search-results" id="searchResults"></div>
+    <div class="bg-dark text-white"> 
+      <div class="india p-3">
+        <span>India</span>
+      </div>
+      <div class="footer">
+        <div class="footer-left">
+          <p class="para">Advertising</p>
+          <p class="para">Business</p>
+          <p class="para">Highlights</p>
+        </div>
+        <div class="footer-right">
+          <p class="para">Privacy Policy</p>
+          <p class="para">Terms & Conditions</p>
+          <p class="para">Settings</p>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>  
+</body>
+</html>
