@@ -17,3 +17,8 @@ Key Components
 
 Future Enhancements
 - Add backend functionality, pagination, dark mode, and improved accessibility.
+
+Author  
+Developed by Kundena Akhil.
+
+Feel free to contribute by forking the project and submitting a pull request!
